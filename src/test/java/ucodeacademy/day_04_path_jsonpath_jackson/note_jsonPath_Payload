@@ -1,0 +1,35 @@
+What is path() method?
+
+In Rest Assured path() & jsonPath() methods are used for extracting data/value from
+the response body.
+
+path() method is used to extract data/value from the response body based on given
+path expression.
+
+We can use path() method to extract data/value from response body that is in JSON,
+XML, and HTML. So path() method is not only limited to JSON body/content-Type.JSON
+
+path() works with any response content type, not just JSON.
+
+jsonPath is class specifically designed for working with JSON response.
+jsonPath() is a method specifically designed for working with JSON response.
+
+jsonPath provide more advance and flexibility to work with JSON structure
+
+There are two way of using jsonPath():
+1.We create an instance/object of JsonPath and called methods through the object
+that comes from JsonPath
+EX: JsonPath jsonPath = response.jsonPath():
+
+2. We can directly call jsonPath() and chain the methods that comes from JSONPath()
+
+example: response.jsonPath().methodName()
+
+You can either use path() or jasonPath()
+path() -> single, work with any Content type
+jsonPath() -> specifically for JSON content type
+===============================================================================
+
+Request body also called Request payload or Payload.
+Response body also called Response payload or Payload.
+Payload ==> Request/Response Body

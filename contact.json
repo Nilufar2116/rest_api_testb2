@@ -1,0 +1,13 @@
+{
+  "firstName": "Lola",
+  "lastName": "Smith",
+  "birthdate": "1986-03-01",
+  "email": "lsmith@tech.com",
+  "phone": "8005555777",
+  "street1": "13 Main St.",
+  "street2": "Apartment B",
+  "city": "Alabama",
+  "stateProvince": "MS",
+  "postalCode": "12366",
+  "country": "USA"
+}
