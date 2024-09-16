@@ -1,4 +1,4 @@
-package ucodeacademy.day_04_path_jsonpath_jackson;
+package ucodeacademy.com.day_04_path_jsonpath_jackson;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

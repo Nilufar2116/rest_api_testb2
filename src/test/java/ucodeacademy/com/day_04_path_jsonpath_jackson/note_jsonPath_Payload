@@ -33,3 +33,22 @@ jsonPath() -> specifically for JSON content type
 Request body also called Request payload or Payload.
 Response body also called Response payload or Payload.
 Payload ==> Request/Response Body
+
+How do you generate/create token and use it in your Restful/RestAPI Testing?
+
+I have a method in my util class that I use to generate token.
+When I call that method, I pass my credential as parameter, and it generates token
+based on my Authentication.
+======================================================================
+
+What is Jackson?
+
+Jackson Library is dependency that we use to convert JSON to Object(Java object)
+or from Object to JSON. It is called Serialization & Deserialization. Or used for
+Ser. & Deser.
+
+What is Serialization & Deserialization?
+Serialization: is to convert Java Object(POJO) into JSON we are sending PUT,POST
+PATCH requests
+Deserialization: is to convert JSON into JAVA Object when get response body and we want to
+convert it to JAVA Object

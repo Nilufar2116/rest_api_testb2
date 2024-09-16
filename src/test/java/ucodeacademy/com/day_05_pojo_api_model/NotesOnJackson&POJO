@@ -1,0 +1,38 @@
+Jackson & Gson are for Serialization & Deserialization (we use Jackson)
+
+Serialization -> Convert Java Object (POJO) into JSON format when sending POST, PUT,
+and PATCH.
+Deserialization -> Convert JSON into Java Object when get the response, ands want
+to convert response body into Java Object
+
+POJO -> stands for Plain Old Java Object.
+
+What is POJO class? or how to create POJO class?
+
+POJO class is the approach that we follow.
+It is a Java class that we create, and that will have all variable that matches the
+body of the request
+
+Steps to follow POJO:
+1. Create a Java, and create instance variables that matches JSON(Request Body)
+- It is called API Model class -> created to match with JSON (request body)
+-Getters and Setters, Constructor are Must in Model/POJO classes. why? for Jackson library
+-When we don't set some of instance variables in Model?POJO classes, we can
+ignore them using annotation that comes from Jackson library.
+
+2. We use Jackson library for Serialization & Deserialization (Conversion)
+
+We can create a separate package to have all our API Model?POJO classes.
+
+
+When you create instance variables in your API Model/POJO class, Data type and
+variable name Must match with values in JSON.
+
+All the variables in API Model/POJO class are private and we will have getters
+and setters.
+
+What we need in API Model/POJO class:
+1. intsance variable
+2. Constuctor
+3. Getter & Setter
+4. toString method
